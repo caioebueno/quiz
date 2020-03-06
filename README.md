@@ -1,1 +1,3 @@
 # quiz
+
+On this project I created a coding quiz abour HTML, CSS and JavaScript. Whe you open the index, a simple quiz interface open. When start is pressed the game strats and gives you 30 seconds to respond all the question, when you get a question wrong you loose 5 seconds. At the end you get you score and the possibility to add you score to the score table, which cantains all the scores from others players. This score is added to the local storage so when the user opens the quiz again, his olthers scores still there.

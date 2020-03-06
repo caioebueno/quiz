@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header id="header">
+        <button id="score" onclick="scoreFunc(), x()">score</button>
+        <a id="timer">Time:<span id="timeSpam"></span></a>
+    </header>
+<div id="hiddenDiv">
+    <main id="container">
+        <div id="startDiv" class="questionDiv visible">
+            <h1>Coding Quiz</h1>
+            <button id="startBtn">start</button>
+        </div>
+    </main>
+
+    <div id="div8" class="questionDiv">
+        <h1 id="scoreH1">Your score: <spam id="scoreSpam"></spam></h1>
+        <input type="text" id="scoreInput" placeholder="Your name">
+        <button id="submitScore" onclick="submit()">Submit</button>
+    </div>
+</div>
+    
+    <aside id="scoreDisplayDiv" class="questionDiv">
+    <table id="table"></table>
+
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
