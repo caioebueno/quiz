@@ -223,7 +223,16 @@ function counter(){
       if (timeLeft <= 0) {
         clearTimeout(timerId);
         elem.innerHTML = 0;
+        console.log("ok")
         nineQuestion();
+        var divs = document.getElementsByTagName("div");
+        for(i = 0; i < divs.length; i++){   
+
+            var elem2 = divs[i];
+            elem2.setAttribute("class", "hidden questionDiv");
+
+        }
+       
       } else {
         elem.innerHTML = timeLeft;
         timeLeft--;
